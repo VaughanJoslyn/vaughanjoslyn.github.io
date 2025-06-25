@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>About | Wild Horse Productions</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="Images/Logo/wild_horses_prod_icon.png" type="image/x-icon">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+		
+		body {
+			background-image: url("Images/background_image_w_tinge.png");
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<img src="Images/Logo/logo_2_white.png" alt="Logo of Wild Horse Productions" width="300">
+		<div class="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<div class="dropdown">
+					<button class="dropbtn">Services<i class="fa fa-caret down"></i></button>
+					<div class="dropdown-content">
+						<a href="cinema-advertising.html">Cinema Advertising</a>
+						<a href="online-advertising.html">Online Advertising</a>
+						<a href="event-coverage.html">Event Coverage</a>
+						<a href="animation-motion-graphics.html">Animation and Motion Graphics</a>
+					</div>
+				</div>
+				<li><a href="contact.html">Contact us</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="component white">
+		<div style="display: flex;">
+			<div class="block2">
+				<img src="Images/Icons/smartphone-call.png" alt="Smartphone icon" class="icon-contact">
+				<h3 style="margin: 20px 0px -10px 0px">Call us</h3>
+				<p>1800 160 401</p>
+			</div>
+			<div class="block2">
+				<img src="Images/Icons/location.png" alt="Location pin icon" class="icon-contact">
+				<h3 style="margin: 20px 0px -10px 0px">Visit us</h3>
+				<p>123 Main Street, Sydney, NSW 2000</p>
+			</div>
+			<div class="block2">
+				<img src="Images/Icons/email.png" alt="Email icon" class="icon-contact">
+				<h3 style="margin: 20px 0px -10px 0px">Email us</h3>
+				<p>wildhorseprod@example.com.au</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="component white">
+		<h2>Get in touch</h2>
+		<p>"<b>*</b>" indicates required fields</p>
+		<div style="display: flex;">
+			<div class="block">
+				<p><b>First name *</b></p>
+			  <input type="text" size="100%">
+			</div>
+			<div class="block">
+				<p><b>Last name *</b></p>
+			  <input type="text" size="100%">
+			</div>
+		</div>
+		<div style="display: flex;">
+			<div class="block">
+				<p><b>Phone # *</b></p>
+			  	<input type="text" placeholder="+61 ### ### ###" size="100%">
+			</div>
+			<div class="block">
+				<p><b>Email address *</b></p>
+			  	<input type="text" placeholder="name@email.com" size="100%">
+			</div>
+		</div>
+		<div style="display: flex;">
+			<div class="block">
+				<p><b>Company name</b></p>
+				<input type="text" size="100%">
+			</div>
+		  <div class="block">
+				<p><b>Budget *</b></p>
+			  	<input type="text" placeholder="Min value: $5000" size="100%">
+			</div>
+		</div>
+  	  	<div class="fullblock">
+			<p><b>What kind of video are you looking for? *</b></p>
+			<p><input type="checkbox"> An advertisement <input type="checkbox"> Event coverage <input type="checkbox"> Animation or motion graphics</p>
+		</div>
+		<div class="fullblock">
+			<p><b>Timeframe *</b></p>
+			<p>When are you hoping to have the video completed?</p>
+			<input type="date">
+		</div>
+	</div>
+	
+	<footer>
+		<p style="font-size: 16px;">© Copyright 2025 Wild Horse Productions</p>
+	</footer>
+</body>
+</html>
